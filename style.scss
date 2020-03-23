@@ -1,0 +1,150 @@
+$main-color: #0ba2db;
+$text-color: #777;
+$lighten-color: white;
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    height: 75vh;
+
+    .logo{
+        flex: 0 0 40%;
+        font-size: 5em;
+        color: $lighten-color;
+        margin-left: 2em;
+    }
+
+    .menu{
+        flex: 0 0 40%;
+        text-align: right;
+        margin-top: 1em;
+
+        a{
+            text-decoration: none;
+            padding: 0.5em;
+            color: $lighten-color;
+        }
+    }
+
+    .top{
+        flex: 0 0 100%;
+        text-align: center;
+
+        h1{
+            font-size: 5em;
+            color: $lighten-color;
+        }
+
+        p{
+            color: $lighten-color;
+        }
+
+        a{
+            text-decoration: none;
+            border: thin $lighten-color solid;
+            color: $lighten-color;
+            padding: 0.5em 1em;
+        }
+    }
+}
+
+h2{
+    text-align: center;
+    font-size: 3em;
+    flex: 0 0 100%;
+    color: $text-color;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+
+    .text{
+        flex: 0 0 50%;
+    }
+
+    h3{
+        text-align: left;
+        color: $text-color;
+    }
+
+    p{
+        color: $text-color;
+    }
+}
+
+.section2{
+    h4{
+        text-align: center;
+        width: 100%;
+        color: $text-color;
+    }
+
+    .service-wrap{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .service{
+        flex: 0 0 20%;
+        text-align: center;
+
+        h3{
+            font-size: 1em;
+            color: $main-color;
+        }
+
+        p{
+            color: $text-color;
+        }
+        
+        i{
+            font-size: 1.5em;
+            background-color: $main-color;
+            width: 2em;
+            height: 2em;
+            border-radius: 50%;
+            margin-top: 0.5em;
+        }
+    }
+}
+
+.section3{
+    p{
+        flex: 0 0 100%;
+        text-align: center;
+        color: $text-color;
+    }
+
+    h2{
+        margin: 0.5em;
+    }
+
+    .gal-menu{
+        flex: 0 0 100%;
+        text-align: center;
+
+        a{
+            text-decoration: none;
+            border: thin $main-color solid;
+            padding: 0.2em 1em;
+        }
+    }
+
+    .gal-img{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 0.5em;
+    }
+}

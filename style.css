@@ -1,0 +1,183 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+header .logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  font-size: 5em;
+  color: white;
+  margin-left: 2em;
+}
+
+header .menu {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  text-align: right;
+  margin-top: 1em;
+}
+
+header .menu a {
+  text-decoration: none;
+  padding: 0.5em;
+  color: white;
+}
+
+header .top {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  text-align: center;
+}
+
+header .top h1 {
+  font-size: 5em;
+  color: white;
+}
+
+header .top p {
+  color: white;
+}
+
+header .top a {
+  text-decoration: none;
+  border: thin white solid;
+  color: white;
+  padding: 0.5em 1em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  color: #777;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section1 .text {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.section1 h3 {
+  text-align: left;
+  color: #777;
+}
+
+.section1 p {
+  color: #777;
+}
+
+.section2 h4 {
+  text-align: center;
+  width: 100%;
+  color: #777;
+}
+
+.section2 .service-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section2 .service {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+  text-align: center;
+}
+
+.section2 .service h3 {
+  font-size: 1em;
+  color: #0ba2db;
+}
+
+.section2 .service p {
+  color: #777;
+}
+
+.section2 .service i {
+  font-size: 1.5em;
+  background-color: #0ba2db;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  margin-top: 0.5em;
+}
+
+.section3 p {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  text-align: center;
+  color: #777;
+}
+
+.section3 h2 {
+  margin: 0.5em;
+}
+
+.section3 .gal-menu {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  text-align: center;
+}
+
+.section3 .gal-menu a {
+  text-decoration: none;
+  border: thin #0ba2db solid;
+  padding: 0.2em 1em;
+}
+
+.section3 .gal-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 0.5em;
+}
+/*# sourceMappingURL=style.css.map */
